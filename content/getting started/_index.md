@@ -9,7 +9,7 @@ It's optional to add any additional logger dependency to activate built-in loggi
 ### Maven
 ```maven
 <dependency>
-    <groupId>ua.foggger</groupId>
+    <groupId>io.github.bobfrostman</groupId>
     <artifactId>wrappedelements</artifactId>
     <version>${wrappedelements.version}</version>
 </dependency>
@@ -80,7 +80,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.*;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import ua.foggger.config.WrappedElements;
+import io.github.bobfrostman.config.WrappedElements;
 import wrappedelements.page.LoginPage;
 
 public class TestNGSmokeTest {

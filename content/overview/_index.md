@@ -31,9 +31,9 @@ Wrappedelements provides some juicy features to do that that other selenium webd
 Imagine page object model description as an interface!
 That makes page object classes clear and avoids additional code.
 ```java
-import ua.foggger.annotation.WebElement;
-import ua.foggger.element.clickable.ClickableElement;
-import ua.foggger.page.IPage;
+import io.github.bobfrostman.annotation.WebElement;
+import io.github.bobfrostman.element.clickable.ClickableElement;
+import io.github.bobfrostman.page.IPage;
 
 public interface LoginPage extends IPage {
 
@@ -97,7 +97,7 @@ Available values are next:
 To do that:
 1. Implement your own Interactor class by implementing IElementInteractor interface and register it in WrappedElements framework:
 ```java
-import ua.foggger.wrapper.interactor.IElementInteractor;
+import io.github.bobfrostman.wrapper.interactor.IElementInteractor;
 
 public class WaitUntilMyCustomConditionsMet implements IElementInteractor {
 
@@ -126,7 +126,7 @@ Interactor - is the entity that describes the behavior with web element.
 To do that:
 1. Implement your own Interactor class by implementing IElementInteractor interface and register it in WrappedElements framework:
 ```java
-import ua.foggger.wrapper.interactor.IElementInteractor;
+import io.github.bobfrostman.wrapper.interactor.IElementInteractor;
 
 public class WaitUntilMyCustomConditionsMet implements IElementInteractor {
 
@@ -225,7 +225,7 @@ WrappedComponents also supports @IOSComponent and @AndroidComponent annotations,
 Common case when you need to find a list of components or elements on the page, **wrappedelements** also supports such functionality
 
 ```java
-import ua.foggger.wrapper.element.impl.ClickableElement;
+import io.github.bobfrostman.wrapper.element.impl.ClickableElement;
 
 public interface InventoryPage extends IPage {
     @WebComponent("//*[@class='inventory_item']")

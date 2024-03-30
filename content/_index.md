@@ -3,7 +3,6 @@ archetype = "home"
 title = "wrappedelements framework"
 +++
 {{% badge style="primary" title="Version" %}}0.0.1{{% /badge %}}
-{{% badge style="red" icon="skull-crossbones" %}}fuck russia{{% /badge %}}
 
 A convenient Selenium Page Object wrapper framework, that reduces usual waiter, and initialization routine. It will help you to get rid of boilerplate code in UI test automation frameworks.
 
@@ -46,6 +45,7 @@ Project is under development and currently has a plenty of features:
 - [ ] Built-in dropdown support, multiselect elements, autocomplete elements support etc.
 
 ## Terms of use
+{{% badge style="red" icon="skull-crossbones" %}}fuck russia{{% /badge %}}
 By using this project or its source code, for any purpose and in any shape or form, you grant your **implicit agreement** to all the following statements:
 
 - You condemn Russia and its military aggression against Ukraine

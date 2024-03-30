@@ -43,7 +43,7 @@ Note that, it's recommended to use xpath locator for list of components.
 {{% /notice %}}
 
 ```java
-import ua.foggger.wrapper.element.impl.ClickableElement;
+import io.github.bobfrostman.wrapper.element.impl.ClickableElement;
 
 public interface InventoryPage extends IPage {
     @WebComponent("//*[@class='inventory_item']")

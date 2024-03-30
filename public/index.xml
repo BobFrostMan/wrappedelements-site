@@ -32,7 +32,7 @@ Initial WrappedElements setup The main object that allows you to interact with W
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/getting-started/index.html</guid>
       <description>Setup project Add wrappedelements and selenium-java dependency to assembler build file. It&amp;rsquo;s optional to add any additional logger dependency to activate built-in logging.
-Maven &amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;ua.foggger&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;wrappedelements&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;${wrappedelements.version}&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;org.seleniumhq.selenium&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;selenium-java&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;${selenium.version}&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;Gradle implementation group: &amp;#39;io.github.bobfrostman&amp;#39;, name: &amp;#39;wrappedelements&amp;#39;, version: &amp;#39;${wrappedelements.version}&amp;#39; implementation group: &amp;#39;org.seleniumhq.selenium&amp;#39;, name: &amp;#39;selenium-java&amp;#39;, version: &amp;#39;${selenium.version}&amp;#39;Ivy &amp;lt;dependency org=&amp;#34;io.github.bobfrostman&amp;#34; name=&amp;#34;wrappedelements&amp;#34; rev=&amp;#34;${wrappedelements.version}&amp;#34;/&amp;gt;&amp;lt;dependency org=&amp;#34;org.seleniumhq.selenium&amp;#34; name=&amp;#34;selenium-java&amp;#34; rev=&amp;#34;${selenium.version}&amp;#34;/&amp;gt;Getting started Create your own Page Object entities as interfaces (extend the IPage interface)
+Maven &amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;io.github.bobfrostman&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;wrappedelements&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;${wrappedelements.version}&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;org.seleniumhq.selenium&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;selenium-java&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;${selenium.version}&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;Gradle implementation group: &amp;#39;io.github.bobfrostman&amp;#39;, name: &amp;#39;wrappedelements&amp;#39;, version: &amp;#39;${wrappedelements.version}&amp;#39; implementation group: &amp;#39;org.seleniumhq.selenium&amp;#39;, name: &amp;#39;selenium-java&amp;#39;, version: &amp;#39;${selenium.version}&amp;#39;Ivy &amp;lt;dependency org=&amp;#34;io.github.bobfrostman&amp;#34; name=&amp;#34;wrappedelements&amp;#34; rev=&amp;#34;${wrappedelements.version}&amp;#34;/&amp;gt;&amp;lt;dependency org=&amp;#34;org.seleniumhq.selenium&amp;#34; name=&amp;#34;selenium-java&amp;#34; rev=&amp;#34;${selenium.version}&amp;#34;/&amp;gt;Getting started Create your own Page Object entities as interfaces (extend the IPage interface)
 public interface LoginPage extends IPage { @WebElement(value = &amp;#34;//form//input&amp;#34;) ClickableElement loginInput(); @WebElement(value = &amp;#34;(//form//input)[2]&amp;#34;) ClickableElement passwordInput(); @WebElement(value = &amp;#34;//input[@type=&amp;#39;submit&amp;#39;]&amp;#34;) ClickableElement loginButton(); } ClickableElement is a wrapper class around standard selenium WebElement.</description>
     </item>
     <item>
@@ -53,13 +53,6 @@ Web pages Web components Web elements wrappedelements provides access to all men
 Interactor - is the entity that describes the behavior with web element. It actually, an opportunity to specify your own waiter for specific web element.
 Available values are next:
 IMMEDIATELY (no waiters applied) UNTIL_VISIBLE (waits for element to be displayed before physical interaction) UNTIL_CLICKABLE (waits for element to be displayed and be enabled) VERTICAL_SCROLL_UNTIL_VISIBLE (scrolls down until the element will be visible in the view port) To use it just specify waitUntil value of @WebElement annotation.</description>
-    </item>
-    <item>
-      <title>Multi Platform Support</title>
-      <link>/multi-platform-support/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/multi-platform-support/index.html</guid>
-      <description>This is a new chapter.</description>
     </item>
   </channel>
 </rss>

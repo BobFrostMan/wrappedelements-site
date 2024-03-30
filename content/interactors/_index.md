@@ -29,7 +29,7 @@ In this case, any time you perform any kind of physical interaction (click, send
 To do that:
 1. Implement your own Interactor class by implementing IElementInteractor interface and register it in WrappedElements framework:
 ```java
-import ua.foggger.wrapper.interactor.IElementInteractor;
+import io.github.bobfrostman.wrapper.interactor.IElementInteractor;
 
 public class WaitUntilMyCustomConditionsMet implements IElementInteractor {
 
@@ -57,7 +57,7 @@ It is possible by implementing **IElementInteractor** interface.
 To do that:
 1. Implement your own Interactor class by implementing **IElementInteractor** interface and register it in WrappedElements framework:
 ```java
-import ua.foggger.wrapper.interactor.IElementInteractor;
+import io.github.bobfrostman.wrapper.interactor.IElementInteractor;
 
 public class WaitUntilMyCustomConditionsMet implements IElementInteractor {
 
