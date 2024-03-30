@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/overview/index.html</loc>
+  </url>
+  <url>
+    <loc>/configurations/index.html</loc>
+  </url>
+  <url>
+    <loc>/getting-started/index.html</loc>
+  </url>
+  <url>
+    <loc>/page-object/components/index.html</loc>
+  </url>
+  <url>
+    <loc>/page-object/index.html</loc>
+  </url>
+  <url>
+    <loc>/page-object/test-layer/index.html</loc>
+  </url>
+  <url>
+    <loc>/page-object/web-element-wrapper/index.html</loc>
+  </url>
+  <url>
+    <loc>/interactors/index.html</loc>
+  </url>
+  <url>
+    <loc>/multi-platform-support/index.html</loc>
+  </url>
+  <url>
+    <loc>/categories/index.html</loc>
+  </url>
+  <url>
+    <loc>/tags/index.html</loc>
+  </url>
+  <url>
+    <loc>/index.html</loc>
+  </url>
+</urlset>

@@ -1,0 +1,54 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Wrappedelements framework'
+theme = 'hugo-theme-relearn'
+
+[menu]
+[[menu.shortcuts]]
+name = "<i class='fa-fw fas fa-tags'></i> Tags"
+url = '/tags'
+
+[[menu.shortcuts]]
+    name = "<i class='fa-fw fas fa-layer-group'></i> Categories"
+    url = '/categories'
+
+[[menu.shortcuts]]
+    name = "<i class='fa-fw fab fa-github'></i> Github repo"
+    url = "https://github.com/BobFrostMan/wrappedelements"
+
+[params]
+  #themeVariant = 'relearn-light'
+  #themeVariant = 'learn'
+  #themeVariant = 'zen-light'
+  #themeVariant = 'blue'
+  #themeVariant = 'neon'
+  alwaysopen = 'true'
+  collapsibleMenu = true
+
+
+#  [[params.themeVariant]]
+#      auto = []
+#      identifier = 'relearn-auto'
+#     name = 'Relearn Light/Dark'
+# [[params.themeVariant]]
+#     identifier = 'relearn-dark'
+# [[params.themeVariant]]
+#     identifier = 'zen-light'
+
+# [[params.themeVariant]]
+#     identifier = 'zen-dark'
+
+# [[params.themeVariant]]
+#     identifier = 'neon'
+
+# [[params.themeVariant]]
+#     identifier = 'learn'
+
+# [[params.themeVariant]]
+#     identifier = 'blue'
+
+# [[params.themeVariant]]
+#     identifier = 'green'
+
+# [[params.themeVariant]]
+#     identifier = 'red'
