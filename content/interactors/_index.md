@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Interactors"
-weight = 4
+weight = 5
 +++
 By default, wrapped elements will wait for all element become clickable before any active interactions (click, sendKeys, etc).
 It is possible because of **Interactor** mechanism, that allows you to configure waits for elements directly on page object layer.

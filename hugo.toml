@@ -16,6 +16,10 @@ url = '/tags'
     name = "<i class='fa-fw fab fa-github'></i> Github repo"
     url = "https://github.com/BobFrostMan/wrappedelements"
 
+[[menu.shortcuts]]
+    name = "<i class='fa-fw fab fa-github'></i> Usage examples"
+    url = "https://github.com/BobFrostMan/wrappedelements-examples"
+
 [params]
   #themeVariant = 'relearn-light'
   #themeVariant = 'learn'

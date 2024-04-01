@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Configuration"
-weight = 2
+weight = 3
 +++
 
 ## Configuration

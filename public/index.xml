@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wrappedelements framework on Wrappedelements framework</title>
-    <link>/index.html</link>
+    <link>//localhost:1313/index.html</link>
     <description>Recent content in wrappedelements framework on Wrappedelements framework</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overview</title>
-      <link>/overview/index.html</link>
+      <link>//localhost:1313/overview/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/overview/index.html</guid>
+      <guid>//localhost:1313/overview/index.html</guid>
       <description>A few words before dig in The main drawback of web/mobile ui test automation is slow implementation and it&amp;rsquo;s quite high support cost. wrapedelements designed to minimise drawbacks.
 Usually Page Object pattern in java implemented as Page object classes.
 You may be surprised how much flexibility you will get if you implement Page Object classes and components as interfaces.
 Small comparison with other frameworks wrappers Wrappedelements provides some juicy features to do that that other selenium webdriver wrappers frameworks don&amp;rsquo;t have.</description>
     </item>
     <item>
-      <title>Configuration</title>
-      <link>/configurations/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/configurations/index.html</guid>
-      <description>Configuration Wrappedelements designed to be configurable and extendable framework. The entry point of framework is a static WrappedElements class, that provides next main functions:
-Page Object interfaces initialization WebDriver providence for all Page Object interfaces Allows to config WrappedElements general settings This section is an overview for the configuration part.
-Initial WrappedElements setup The main object that allows you to interact with Web or Mobile UI is WebDriver object. General configuration provided by config() method of WrappedElements class.</description>
-    </item>
-    <item>
       <title>Getting Started</title>
-      <link>/getting-started/index.html</link>
+      <link>//localhost:1313/getting-started/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/getting-started/index.html</guid>
+      <guid>//localhost:1313/getting-started/index.html</guid>
       <description>Setup project Add wrappedelements and selenium-java dependency to assembler build file. It&amp;rsquo;s optional to add any additional logger dependency to activate built-in logging.
 Maven &amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;io.github.bobfrostman&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;wrappedelements&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;${wrappedelements.version}&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;org.seleniumhq.selenium&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;selenium-java&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;${selenium.version}&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;Gradle implementation group: &amp;#39;io.github.bobfrostman&amp;#39;, name: &amp;#39;wrappedelements&amp;#39;, version: &amp;#39;${wrappedelements.version}&amp;#39; implementation group: &amp;#39;org.seleniumhq.selenium&amp;#39;, name: &amp;#39;selenium-java&amp;#39;, version: &amp;#39;${selenium.version}&amp;#39;Ivy &amp;lt;dependency org=&amp;#34;io.github.bobfrostman&amp;#34; name=&amp;#34;wrappedelements&amp;#34; rev=&amp;#34;${wrappedelements.version}&amp;#34;/&amp;gt;&amp;lt;dependency org=&amp;#34;org.seleniumhq.selenium&amp;#34; name=&amp;#34;selenium-java&amp;#34; rev=&amp;#34;${selenium.version}&amp;#34;/&amp;gt;Getting started Create your own Page Object entities as interfaces (extend the IPage interface)
 public interface LoginPage extends IPage { @WebElement(value = &amp;#34;//form//input&amp;#34;) ClickableElement loginInput(); @WebElement(value = &amp;#34;(//form//input)[2]&amp;#34;) ClickableElement passwordInput(); @WebElement(value = &amp;#34;//input[@type=&amp;#39;submit&amp;#39;]&amp;#34;) ClickableElement loginButton(); } ClickableElement is a wrapper class around standard selenium WebElement.</description>
     </item>
     <item>
-      <title>Page Object</title>
-      <link>/page-object/index.html</link>
+      <title>Configuration</title>
+      <link>//localhost:1313/configurations/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/page-object/index.html</guid>
+      <guid>//localhost:1313/configurations/index.html</guid>
+      <description>Configuration Wrappedelements designed to be configurable and extendable framework. The entry point of framework is a static WrappedElements class, that provides next main functions:
+Page Object interfaces initialization WebDriver providence for all Page Object interfaces Allows to config WrappedElements general settings This section is an overview for the configuration part.
+Initial WrappedElements setup The main object that allows you to interact with Web or Mobile UI is WebDriver object. General configuration provided by config() method of WrappedElements class.</description>
+    </item>
+    <item>
+      <title>Page Object</title>
+      <link>//localhost:1313/page-object/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/page-object/index.html</guid>
       <description>The main idea behind Page Object Model in wrappedelements framework is to provide additional functionality and flexibility to standard selenium web element interface.
 The main Page Object units in a common java ui test automation framework are next:
 Web pages Web components Web elements wrappedelements provides access to all mentioned units in it own extended and more flexible way.</description>
     </item>
     <item>
       <title>Interactors</title>
-      <link>/interactors/index.html</link>
+      <link>//localhost:1313/interactors/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/interactors/index.html</guid>
+      <guid>//localhost:1313/interactors/index.html</guid>
       <description>By default, wrapped elements will wait for all element become clickable before any active interactions (click, sendKeys, etc). It is possible because of Interactor mechanism, that allows you to configure waits for elements directly on page object layer.
 Interactor - is the entity that describes the behavior with web element. It actually, an opportunity to specify your own waiter for specific web element.
 Available values are next:

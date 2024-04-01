@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Web Element Wrapper"
-weight = 3.1
+weight = 4.1
 +++
 
 Web element is the main basic unit for page object. It's basically any clickable, visible or intractable element on a web page.

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Page Object on Wrappedelements framework</title>
-    <link>/page-object/index.html</link>
+    <link>//localhost:1313/page-object/index.html</link>
     <description>Recent content in Page Object on Wrappedelements framework</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/page-object/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/page-object/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Components</title>
-      <link>/page-object/components/index.html</link>
+      <link>//localhost:1313/page-object/components/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/page-object/components/index.html</guid>
+      <guid>//localhost:1313/page-object/components/index.html</guid>
       <description>Components design It&amp;rsquo;s quite common case when you have some component on the page that duplicated on different page, and may contain elements that duplicates from page to page. For instance: in your header you have a basket button that contains from basket element button and products count label.
 To create BasketButton component you need:
 Extend WrappedComponent interface: public interface BasketButton extends WrappedComponent { @WebElement(value = &amp;#34;.//span[@class=\&amp;#34;shopping_cart_badge\&amp;#34;]&amp;#34;, waitUntil = IMMEDIATELY) ClickableElement notificationsCountLabel(); @WebElement(value = &amp;#34;.</description>
     </item>
     <item>
       <title>Test Layer</title>
-      <link>/page-object/test-layer/index.html</link>
+      <link>//localhost:1313/page-object/test-layer/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/page-object/test-layer/index.html</guid>
+      <guid>//localhost:1313/page-object/test-layer/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Web Element Wrapper</title>
-      <link>/page-object/web-element-wrapper/index.html</link>
+      <link>//localhost:1313/page-object/web-element-wrapper/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/page-object/web-element-wrapper/index.html</guid>
+      <guid>//localhost:1313/page-object/web-element-wrapper/index.html</guid>
       <description>Web element is the main basic unit for page object. It&amp;rsquo;s basically any clickable, visible or intractable element on a web page.
 The main class that represents web element in wrappedelements framework is ClickableElement ClickableElement is a wrapper class around standard selenium WebElement. It&amp;rsquo;s the basic web element class that provides additional functionality and allows you to use built-in waiters. It provides an opportunity to adjust waiters and timeout conditions on Page Object level by adjusting @WebElement annotation values.</description>
     </item>

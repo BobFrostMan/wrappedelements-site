@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Components"
-weight = 3.2
+weight = 4.2
 +++
 
 ## Components design

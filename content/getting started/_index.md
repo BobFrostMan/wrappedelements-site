@@ -1,5 +1,5 @@
 +++
-archetype = "default"
+archetype = "chapter"
 title = "Getting Started"
 weight = 2
 +++
@@ -126,3 +126,5 @@ public class TestNGSmokeTest {
     }
 }
 ```
+
+For more information see [usage examples on github](https://github.com/BobFrostMan/wrappedelements-examples) 

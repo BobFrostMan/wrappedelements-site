@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Page Object"
-weight = 3
+weight = 4
 +++
 
 The main idea behind Page Object Model in **wrappedelements** framework is to provide additional functionality and flexibility to standard selenium web element interface.
